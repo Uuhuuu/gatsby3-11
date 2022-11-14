@@ -1,15 +1,17 @@
 import React from "react";
+import { Link } from 'gatsby';
 
 const Homepage = () => {
   return (
     <>
-      <h1>Creating components</h1>
-      <p>Adding p component</p>
-      <p>imr for import React from "react"</p>
-        <p>rafc for react component</p>
+    <title>Strona startowa</title>
+      <h1>Default Page - <p>enjoy while you can</p></h1>
+      <Link to="/about">To about</Link>    
+      <div><Link to="/contact">To contact</Link></div>
+      <div><Link to="/testing">To testing</Link></div>
     </>
   );
 };
 
-
+export const Head = () => <title>Index</title>
 export default Homepage;

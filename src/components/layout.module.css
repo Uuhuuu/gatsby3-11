@@ -1,0 +1,27 @@
+.title {
+  color: rgb(22, 173, 42);
+  font-size: 3rem;
+}
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: sans-serif;
+}
+.text {
+  color: blueviolet;
+}
+.heading {
+  color: rgb(204, 50, 50);
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.nav-link-item {
+  padding-right: 2rem; /*odległość między 'boxami*/
+}
+.nav-link-text {
+  color: black;
+  background-color: rgba(176, 196, 197, 0.288);
+}
